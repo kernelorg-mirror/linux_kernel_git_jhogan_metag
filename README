@@ -10,11 +10,13 @@ The main branches are as follows:
 
 for-next:
 	This contains arch/metag patches for the next merge window.
-	This branch is included in linux-next
+	This branch is included in linux-next, but may be rebased from time to
+	time.
 
 fixes:
 	This contains arch/metag fixes for the next release (fixes only).
-	This branch is included in linux-next.
+	This branch is included in linux-next, but may be rebased from time to
+	time.
 
 
 Other branches:
