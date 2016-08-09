@@ -1,0 +1,49 @@
+
+ Metag Architecture Repository
+ =============================
+
+Maintainer: James Hogan <james.hogan@imgtec.com>
+
+This repository is for ImgTec Meta architecture work for upstream, i.e. for the
+arch/metag directory in the Linux kernel source.
+
+The main branches are as follows:
+
+for-next:
+	This contains arch/metag patches for the next merge window.
+	This branch is included in linux-next
+
+fixes:
+	This contains arch/metag fixes for the next release (fixes only).
+	This branch is included in linux-next.
+
+
+Other branches:
+
+imgdafs:
+	The imgdafs (DA FileSystem) for accessing host PC files from a Meta
+	target via a DA JTAG probe. This was never accepted upstream despite
+	multiple versions being submitted.
+
+
+ Architecture Documentation
+ --------------------------
+
+Architecture documentation can be found on the ImgTec download page at:
+
+https://imgtec.com/downloads
+
+Look for:
+	"Meta HTP.GP Instruction Set"
+	"Meta HTP.GP Architecture Overview"
+
+
+ Buildroot and QEMU
+ ------------------
+
+Buildroot and QEMU ports for Meta can be found on GitHub:
+
+https://github.com/img-meta
+
+Buildroot can build a Meta toolchain, and QEMU can be used to emulate a Meta in
+order to run a Meta Linux kernel.
