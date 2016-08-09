@@ -1,6 +1,5 @@
-
- Metag Architecture Repository
- =============================
+Metag Architecture Repository
+=============================
 
 Maintainer: James Hogan <james.hogan@imgtec.com>
 
@@ -26,8 +25,8 @@ imgdafs:
 	multiple versions being submitted.
 
 
- Architecture Documentation
- --------------------------
+Architecture Documentation
+--------------------------
 
 Architecture documentation can be found on the ImgTec download page at:
 
@@ -38,8 +37,8 @@ Look for:
 	"Meta HTP.GP Architecture Overview"
 
 
- Buildroot and QEMU
- ------------------
+Buildroot and QEMU
+------------------
 
 Buildroot and QEMU ports for Meta can be found on GitHub:
 
